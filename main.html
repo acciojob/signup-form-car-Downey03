@@ -12,26 +12,27 @@
 </script>
 	<form method="post">
 
-		<div>
-		<label for"name">Name*</label>
-		<input type="text" id="name" name="name"  placeholder="Name" required>
-<!-- 		<label for="name">Name*</label>
-  <input type="text" id="name" name="name" placeholder="Name" required> -->
+		
+<!-- 		<label for"name">Name*</label>
+		<input type="text" id="name" name="name"  placeholder="Name" required> -->
+		<label for="name">Name*</label>
+  <input type="text" id="name" name="name" placeholder="Name" required>
 
-		</div>
+		
 		<label for"email">Email*</label>
 		<input id="email" name="email" type="email" placeholder="Email*" required>
 		<label for="gender">Gender*</label>
 		<input id="gender_m" name="gender" type="radio">Male
 		<input id="gender_f" name="gender" type="radio">Female
-		<select id="cars">Car Brands*
-			<option name="cars" disabled>--Please choose an option--</option>
+		<label for="cars" >Car Brands*</label>
+		<select id="cars" name="cars">
+			<option  disabled>--Please choose an option--</option>
 		<option value="BMW">BMW</option>
 		<option value="Audi">Audi</option>
 		<option value="Mercedez">Mercedez</option>
 			</select>
 		<label  for"age">Age*</label>
-		<input id="age" type="number" name="age" required>
+		<input id="age" type="number" name="age" placeholder="Age" required>
 		<label  for"dob">DOB*</label>
 		<input id="dob" type="date"  required>
 		<label  for"tel" >Phone Number</label>
