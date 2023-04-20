@@ -14,7 +14,7 @@
 
 		<div>
 		<label for"name">Name*</label>
-		<input id="name" name="name" type="text" placeholder="Name*" required>
+		<input id="name" name="'name'" type="text" placeholder="Name*" required>
 		</div>
 		<label for"email">Email*</label>
 		<input id="email" name="email" type="email" placeholder="Email*" required>
@@ -35,8 +35,9 @@
 		<input id="tel" type="tel" placeholder="xxx-xxx-xxxx">
 		<label for="password">Password*</label>
 		<input id="password" name="password" type="password" required>
-		<input type="checkbox" name="tos" id="tos">I agree to the TOS
-		<input type="submit" value="Submit">
+		<label for"tos" >I agrees to the TOS</label>
+		<input type="checkbox" name="tos" id="tos">
+		<button type="submit" >Submit</button>
 	</form>
 
 </body>
