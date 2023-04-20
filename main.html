@@ -12,24 +12,28 @@
 </script>
 	<form method="post">
 
+		<div>
 		<label for"name">Name*</label>
 		<input id="name" name="name" type="text" placeholder="Name" required>
-		<label for"email">Email</label>
+		</div>
+			<label for"email">Email*</label>
 		<input id="email" name="email" type="email" placeholder="Email" required>
-		<label for="gender">Gender</label>
+		<label for="gender">Gender*</label>
 		<input id="gender_m" name="gender" type="radio">Male
 		<input id="gender_f" name="gender" type="radio">Female
-		<option id="cars" name="cars" value="--Please choose an option--">Car Brands</option>
-		<select id="cars">BMW</select>
-		<select id="cars">Audi</select>
-		<select id="cars">Mercedez</select>
-		<label  for"age">Age</label>
+		<select id="cars">Car Brands*
+			<option name="cars" disabled>--Please choose an option--</option>
+		<option value="BMW">BMW</option>
+		<option value="Audi">Audi</option>
+		<option value="Mercedez">Mercedez</option>
+			</select>
+		<label  for"age">Age*</label>
 		<input id="age" type="number" placeholder="Age" required>
-		<label  for"dob">DOB</label>
+		<label  for"dob">DOB*</label>
 		<input id="dob" type="date"  required>
 		<label  for"tel" >Phone Number</label>
 		<input id="tel" type="tel" placeholder="xxx-xxx-xxxx">
-		<label for="password">Password</label>
+		<label for="password">Password*</label>
 		<input id="password" name="password" type="password" required>
 		<input type="checkbox" name="tos" id="tos">I agree to the TOS
 		<input type="submit" value="Submit">
